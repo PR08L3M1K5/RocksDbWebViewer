@@ -6,7 +6,7 @@ import {GenericResponseInterface} from "../types/generic-response.interface";
 
 @Injectable({providedIn: 'root'})
 export class DatabaseSelectionService {
-  private apiURL = "http://localhost:8080/api/database/configuration";
+  private apiURL = "168.119.116.3/api/database/configuration";
 
   constructor(private http: HttpClient) {
   }
