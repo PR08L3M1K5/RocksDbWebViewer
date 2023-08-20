@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "http:168.119.116.3",
+    "secure": false
+  }
+}

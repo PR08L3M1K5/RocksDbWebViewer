@@ -7,7 +7,7 @@ import {GenericResponseInterface} from "../types/generic-response.interface";
 
 @Injectable({providedIn: 'root'})
 export class DatabaseViewService {
-  private apiURL = "168.119.116.3/api/database/view";
+  private apiURL = "http:168.119.116.3/api/database/view";
 
   constructor(private http: HttpClient) {
   }
