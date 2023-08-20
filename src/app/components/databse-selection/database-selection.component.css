@@ -1,0 +1,25 @@
+.content{
+  margin: 20px 20px 20px 20px;
+
+}
+mat-card{
+ min-width: 200px;
+  min-height: 200px;
+}
+.mat-grid-tile-content{
+  width: 100px;
+  height: 100px;
+}
+.add-database-button{
+  margin: auto;
+}
+mat-card-content{
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+mat-card-header{
+  margin-left: auto;
+}
